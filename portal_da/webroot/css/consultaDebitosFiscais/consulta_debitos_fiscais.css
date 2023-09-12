@@ -1,0 +1,506 @@
+body{
+    background-color: #F6F6F6;
+}
+
+h1{
+    font-family: "Averta-Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: hsl(203, 100%, 29%);
+    margin-top:20px;
+    margin-bottom: -10px;
+}
+
+h2{
+    font-family: "Averta-Light", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #303030;
+    margin-bottom: 40px;
+    letter-spacing: normal;
+}
+
+.bt-voltar{
+    font-family: "Averta-Light", sans-serif;
+    width: 80px  !important;
+    height: 35px  !important;
+    font-style: normal !important;
+    font-weight: 700  !important;
+    font-size: 14px  !important;
+    border-radius: 8px !important;
+    text-transform: capitalize !important;
+    background: #005A92 !important;
+    color: white;
+    line-height: 2;
+    margin-top: 20px;
+    float: left !important;
+}
+
+.icon-print{
+    float: right;
+    margin-bottom: 10px;
+}
+
+.icon-warning{
+    color: red;
+    float: left;
+    margin-right: 10px;
+}
+
+.data_consulta > p{
+    float: left;
+    font-family: "Averta-Bold";
+    font-size: 1.5em;
+}
+
+.documento-consulta{
+    font-family: "Averta-Light";
+    font-size: 14;
+}
+
+.info-consulta{
+    font-family: "Averta-Bold";
+    font-size: 14;
+}
+
+.data{
+    font-family: "Averta-Light";
+    font-size: 14;
+}
+
+@media print {
+
+    .header-todo {
+        margin-left: 10px !important;
+    }
+
+    body {
+        background-color: transparent!important;
+    }
+
+    .no-print {
+      display: none !important;
+    }
+
+    * {
+        overflow: visible !important;
+    }
+
+    @page {
+        size: A4;
+        margin-top: 50;
+        margin-bottom: 50;
+        transform: scale(0.6); 
+        transform-origin: top left;
+      }
+
+      body {
+        zoom: 0.8 !important;
+      }
+
+    .table th {
+        color: black !important;
+    }
+
+}
+
+.icon-print {
+    cursor: pointer;
+}
+
+ .span-ba {
+    font-family: "Averta-Light", sans-serif!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.span-bb {
+    font-family: "Averta-Bold", sans-serif!important;
+    font-style: normal!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.separador-span{
+    font-family: "Averta-Light", sans-serif!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.exemplo_breadcrumb{
+    margin-top: 25px;
+}
+
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#005A92;
+    left: auto;
+    top: auto;
+    width: 20%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+
+*:focus {
+    outline: none;
+  }
+
+.info-total{
+    clear: both;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.mensagem-sem-divida{
+    font-size: 14px;
+    font-family: 'Averta-Light';
+}
+
+.warning-icon{
+    color:orange;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* CSS PARA DATATABLE */
+
+.nowrap{
+    white-space: nowrap;
+}
+
+table td, table th {
+    padding: 0px 5px 0px 5px !important;
+}
+
+.dataTable{
+    margin-Top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: 'Averta-Light';
+}
+
+.dataTables_length > label, .dataTables_filter > label{
+    color:#005A92;
+    font-size: 14px;
+}
+
+.dataTables_length{
+    float: left;
+    margin-right: 20px;
+}
+
+.dataTable > thead{
+    background-color: #005A92;
+    color: white;
+    font-family: 'Averta-Light';
+}
+
+.dataTables_info{
+    float: left;
+    font-size: 14px !important;
+}
+
+.dataTables_paginate{
+    float: right;
+    font-size: 14px !important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: .5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, white 0%, #dcdcdc 100%)
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #666 !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #111;
+    background-color: #585858;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111));
+    background: -webkit-linear-gradient(top, #585858 0%, #111 100%);
+    background: -moz-linear-gradient(top, #585858 0%, #111 100%);
+    background: -ms-linear-gradient(top, #585858 0%, #111 100%);
+    background: -o-linear-gradient(top, #585858 0%, #111 100%);
+    background: linear-gradient(to bottom, #585858 0%, #111 100%)
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    outline: none;
+    background-color: #2b2b2b;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));
+    background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);
+    box-shadow: inset 0 0 3px #111;
+}
+
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+    padding: 0 1em
+}
+
+.dataTables_wrapper .dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(25%, rgba(255, 255, 255, 0.9)), color-stop(75%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+    color: #333
+}
+
+.dataTables_wrapper .dataTables_scroll {
+    clear: both
+}
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    *margin-top: -1px;
+    -webkit-overflow-scrolling: touch
+}
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>thead>tr>th,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>thead>tr>td,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>tbody>tr>th,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>tbody>tr>td {
+    vertical-align: middle
+}
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>thead>tr>th>div.dataTables_sizing,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>thead>tr>td>div.dataTables_sizing,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>tbody>tr>th>div.dataTables_sizing,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>tbody>tr>td>div.dataTables_sizing {
+    height: 0;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+/* CSS PARA DATATABLE */
+
+
+
+@media screen and (min-width: 350px) and (max-width: 670px)  {
+
+    /* CSS DATATABLE FIM */
+    
+    table td, table th {
+        display: block;
+        padding: 5px !important;
+    }
+
+    table th{
+        width: 100px !important;
+    }
+
+    .sorting_1{
+        text-align: center;
+    }
+
+    .dataTable{
+        font-size: 14px !important;
+        text-align: center !important;
+        font-weight: unset;
+        font-family: 'Averta-Light';
+        width: auto !important;
+    }
+
+    .dataTables_length{
+        text-align: center;
+        margin-bottom: 10px;
+        float: none;
+        margin-right: unset;
+    }
+
+    .dataTables_length > label,.dataTables_filter > label{
+        color:#005A92;
+        font-size: 18px;
+    }
+
+    .dataTables_filter{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dataTables_info,.dataTables_paginate{
+        text-align: center;
+        font-size: 18px;
+        float: none;
+    }
+
+    .info-total {
+        font-size: 15px !important;
+        text-align: center;
+    }
+    
+    /* CSS DATATABLE FIM */
+      
+    
+    .bg-light-blue {
+        height: 45px !important;
+    }
+    .header-todo{
+        margin-bottom: -5px !important;
+    }
+    .social{
+        margin: 0px auto !important;
+    }
+    .ytb{
+        margin-right: 0px !important;
+    }
+
+    .lgo_pge {
+        height: 160px!important;
+        width: 100%!important;
+        margin-top: -40px!important;
+    }
+
+    .exemplo_breadcrumb {
+        margin-top: 30px!important;
+    }
+
+    h2{
+        font-size: 16px !important;
+    }
+
+    .main{
+        margin-left: 20px!important;
+        padding-right: 20px !important;
+    }        
+
+    .footer_pge{
+        margin-top: 0px!important;
+    }
+    .mensagem_cda{
+        font-size: 18px !important;
+        line-height: 1.5 !important;
+    }
+    .bt-voltar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 18px !important;
+
+
+    }
+    .texto-paginacao{
+        font-size: 16px !important;
+    }
+    
+    .icon-print{
+        display: none;
+    }
+
+    .info-consulta,.documento-consulta{
+        font-size: 18px !important;
+    }
+    .pagination {
+        font-size: 20px;
+    }
+}
+    
+@media screen and (min-width: 671px) and (max-width: 1080px)  {
+
+    .lgo_pge {
+        margin-top: -10px;
+    }
+
+    .dataTables_info,.dataTables_paginate{
+        text-align: left;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1080px)  {
+
+    .lgo_pge {
+        margin-top: -10px;
+    }
+
+    .dataTables_info,.dataTables_paginate{
+        text-align: left;
+        font-size: 18px;
+    }
+
+}

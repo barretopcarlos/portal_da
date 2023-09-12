@@ -1,0 +1,42 @@
+/* *{
+    padding: 0px !important;
+} */
+
+.bg-light-blue{
+    background-color: #005A92!important;
+    border-bottom: 4px solid #BC9D32;
+    height: 45px;
+}
+
+.nav-principal{
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 16px 16px;
+}
+
+.lgo_pge {
+    height: auto;
+    width: 15%;
+    margin-top: 15px;
+}
+
+.social_icon{
+    height:18px;
+    width: 18px;
+    display: inline-flex;
+    margin-right: 16px;
+}
+
+.header-todo{
+    padding: 0px !important;
+}
+
+@media (max-width: 768px) {
+
+    .lgo_pge {
+        height: 160px;
+        width: 100%;
+        margin-top: -40px;
+    }
+}    

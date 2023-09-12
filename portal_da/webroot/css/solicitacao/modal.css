@@ -1,0 +1,70 @@
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    background-color: #005A92;
+    width: 100%;
+    color: white;
+    height: 40px;
+    padding: 7px 0px 10px 30px !important;
+    font-family: 'Averta';
+    font-size: 15px;
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    margin: 30px 30px 30px 30px;
+    font-size: 13px;
+    font-family: 'Averta-Light';
+}
+
+.bt-nao{
+    width: 65px;
+    height: 35px;
+    background-color: white;
+    color: #005A92;
+    font-size: 12;
+    border: 1px solid #005A92;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.bt-sim{
+    width: 65px;
+    height: 35px;
+    background-color: #005A92;
+    color: white;
+    font-size: 12;
+    border: none !important;
+    border-radius: 8px;
+}
+
+.modal-footer {
+    padding: 10px 20px 10px 20px !important;
+}
+
+.close {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 2;
+    color: white;
+    text-shadow: none !important;
+    opacity: 100 !important;
+    font-family: 'Averta-Light';
+}
+
+.fechar-modal{
+    margin-left: -60px;
+}

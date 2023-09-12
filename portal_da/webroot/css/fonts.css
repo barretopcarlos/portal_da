@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Averta";
+    src: url("../font/Averta-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta-Light";
+    src: url("../font/Averta-Light.otf") format("opentype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta-Bold";
+    src: url("../font/Averta-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "Averta", sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,527 @@
+*{
+    padding: 0px !important;
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+.message.error  {
+    color: #000000!important;
+    margin-top: 20px !important;
+    margin-bottom: -15px !important;
+    padding: 10px 0 10px 10 !important;
+    width: 50% !important;
+    font-family: "Averta-Light" !important;
+    border: none !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+}
+
+
+.sel-doc  {
+    color: #000000!important;
+    margin-top: 20px !important;
+    margin-bottom: -15px !important;
+    padding: 10px 0 10px 10 !important;
+    width: 50% !important;
+    font-family: "Averta-Light" !important;
+    border: none !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+}
+
+h1{
+    font-family: "Averta-Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #005A92;
+    margin-top:20px;
+    margin-bottom: -10px;
+}
+
+h2{
+    font-family: "Averta-Light", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #303030;
+    margin-bottom: 30px;
+    letter-spacing: normal;
+}
+
+.mensagem-cpf{
+    float: right;
+    margin-bottom: 5px;
+}
+
+.mensagem-nome{
+    float: right;
+    margin-bottom: 10px;
+}
+
+
+
+
+.icon-close{
+    margin-top: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+.icon-report_problem{
+    color: #ff8c00;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.info-impressao{
+    height: 40px;
+    width: 100%;
+    background: #FFDD73;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-info-receita{
+    text-align: center;
+    margin-bottom: 0px !important;
+    font-size: 12px;
+    font-family: 'Averta-bold';
+    font-style: normal;
+}
+
+.box-info-receita{
+    margin-bottom: 20px;
+}
+
+.texto-info-erro{
+    text-align: center;
+    margin-bottom: 0px !important;
+    font-size: 12px;
+    font-family: 'Averta-bold';
+    font-style: normal;
+}
+
+.box-info-erro{
+    margin-bottom: 20px;
+}
+
+.icon-report_problem{
+    color: red;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.info-erro{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bt-grupo{
+    font-family: "Averta-Light", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    width: 80px  !important;
+    height: 35px  !important;
+    font-size: 14px  !important;
+    border-radius: 8px !important;
+    text-transform: capitalize !important;
+    border: none !important;
+    clear: both;
+}
+
+.bt-group span {
+    display: inline-block;
+ }
+
+
+.bt-buscar{
+    background: #005A92 !important;
+    clear: both;
+    margin-left: 15px;
+}
+
+.bt-limpar{
+    background: transparent !important;
+    float: left !important;
+    color: #005A92 !important;
+    clear: both;
+}
+
+.bt-voltar{
+    background: #ffffff !important;
+    clear: both;
+    color: #005A92;
+    border: solid 2px #005A92 !important;
+    display: block;
+    text-align: center;
+    line-height: 2;
+}
+
+.bt-group{
+    margin-top: 30px;
+}
+
+.bt-voltar:active {
+    border: 2px solid #005A92  !important;
+
+}
+
+.bt-voltar:focus {
+    border: 2px solid #005A92  !important;
+    color: #005A92;
+}
+
+.bt-voltar:hover {
+    border: 2px solid #005A92  !important;
+    color: #005A92;
+}
+
+
+.bt-limpar:active {
+    border: none !important;
+}
+
+.label-cdf{
+    font-family: "Averta-Light", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+
+
+select{
+    font-size: 14px;
+}
+
+#campo{
+    margin-bottom: 25px;
+    border: 0.1rem solid #d1d1d1;
+    border-radius: 0.4rem;
+    box-shadow: none;
+    box-sizing: inherit;
+    height: 3.8rem;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Averta-Light';
+}
+
+#valor{
+    font-size: 14px;
+    font-family: 'Averta-Light';
+}
+
+#email{
+    font-size: 14px;
+    font-family: 'Averta-Light';
+}
+
+#nome_contribuinte{
+    font-size: 14px;
+    font-family: 'Averta-Light';
+}
+
+.g-recaptcha{
+    margin-top: 40px !important;
+}
+    
+.grupo-form{
+    margin-left: 15px !important;
+}
+
+
+input:disabled {
+    background-color: #f0f0f0 !important;
+}
+
+form-group{
+    margin-top: 15px !important;
+}
+
+.group-campo{
+    margin-bottom: -10px;
+}
+
+
+.span-ba {
+    font-family: "Averta-Light", sans-serif!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.span-bb {
+    font-family: "Averta-Bold", sans-serif!important;
+    font-style: normal!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.separador-span{
+    font-family: "Averta-Light", sans-serif!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.exemplo_breadcrumb{
+    margin-top: 25px;;
+}
+
+
+@media (max-width: 480px) {
+
+    .bg-light-blue {
+        height: 45px !important;
+    }
+    .header-todo{
+        margin-bottom: -5px !important;
+    }
+    .social{
+        margin: 0px auto !important;
+    }
+    .ytb{
+        margin-right: 0px !important;
+    }
+
+    .lgo_pge {
+        height: 160px;
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .exemplo_breadcrumb {
+        margin-top: 30px;
+    }
+
+    h2{
+        font-size: 16px !important;
+    }
+
+    .main{
+        margin-left: 20px;
+        padding-right: 20px !important;
+    }    
+
+    .bt-buscar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 18px !important;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+    }
+    
+    .bt-limpar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 16px !important;
+        border: none !important;
+        color: #005A92 !important;
+        background-color: transparent !important;
+        position: relative !important;
+        margin-top: -200px !important;
+    }
+    
+    .bt-voltar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 18px !important;
+        background: #ffffff !important;
+        border: 2px solid #005A92  !important;
+        color: #005A92 !important;
+        margin-top: 55px !important;
+    }
+
+    #campo{
+        height: 55px !important;
+        font-size: 16px !important;
+    }
+
+    #valor{
+        height: 55px !important;
+        font-size: 16px !important;
+    }
+
+    .footer_pge{
+        margin-top: 0px;
+    }
+
+    .bt-group.col-sm-4 {
+        display: block;
+    }
+    .bt-group.col-sm-4 .bts {
+        width: 100%;
+        float: none;
+    }
+    .grupo-form{
+        margin-left: 15px !important;
+        padding-left: 0px !important;
+    }
+    .label-cdf {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .g-recaptcha{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px !important;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .bg-light-blue {
+        height: 45px !important;
+    }
+    .header-todo{
+        margin-bottom: -5px !important;
+    }
+    .social{
+        margin: 0px auto !important;
+    }
+    .ytb{
+        margin-right: 0px !important;
+    }
+
+    .lgo_pge {
+        height: 170px;
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .exemplo_breadcrumb {
+        margin-top: 30px;
+    }
+
+    h2{
+        font-size: 16px !important;
+    }
+
+    .main{
+        margin-left: 20px;
+        padding-right: 20px !important;
+    }    
+
+    .bt-buscar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 18px !important;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+    }
+    
+    .bt-limpar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 16px !important;
+        border: none !important;
+        color: #005A92 !important;
+        background-color: transparent !important;
+        position: relative !important;
+        margin-top: -200px !important;
+    }
+    
+    .bt-voltar{
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 18px !important;
+        background: #ffffff !important;
+        border: 2px solid #005A92  !important;
+        color: #005A92 !important;
+        margin-top: 55px !important;
+    }
+
+    #campo{
+        height: 55px !important;
+        font-size: 16px !important;
+    }
+
+    #valor{
+        height: 55px !important;
+        font-size: 16px !important;
+    }
+
+    .footer_pge{
+        margin-top: 0px;
+    }
+
+    .bt-group.col-sm-4 {
+        display: block;
+    }
+    .bt-group.col-sm-4 .bts {
+        width: 100%;
+        float: none;
+    }
+    .grupo-form{
+        margin-left: 15px !important;
+        padding-left: 0px !important;
+    }
+    .label-cdf {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    
+}
+
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#005A92;
+    left: auto;
+    top: auto;
+    width: 20%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+
+*:focus {
+    outline: none;
+  }
